@@ -1,0 +1,281 @@
+.poppins a
+
+{
+  font-family: Poppins;
+  color: #53DF83 ;
+}
+
+.poppux
+
+{
+  font-family: Poppins;
+}
+
+.poppins
+
+{
+  font-family: Poppins;
+  color: #53DF83 ;
+  margin-top: 1em;
+}
+
+.poppins a:hover
+
+{
+  font-family: Poppins;
+  color: white ;
+  list-style:none !important;
+  background-color: #53DF83 !important;
+   text-decoration: none;
+
+}
+
+.margetop
+{
+  margin-left: 1em;
+    margin-top: 1em;
+
+}
+
+.margetop-big
+{
+  margin-left: 26em;
+  margin-top: 1em;
+}
+
+.margetop-co
+{
+      margin-top: 0.5em !important;
+
+}
+
+.hr
+{
+border-bottom: 1px solid gray;
+}
+
+.home
+{
+  background-color: #EEEEEE;
+}
+#section1 {
+  background-color: #53DF83;
+  font-family: Poppins; Arial;
+  display: flex;
+}
+
+.plateforme {
+  margin-top: 65px;
+  color: white;
+  font-size: 30px;
+}
+
+.description {
+  margin-top: 45px;
+  color: white ;
+  font-size: 20px;
+}
+
+.plateforme_description {
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.vache {
+  margin-top: 55px;
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 55px;
+}
+
+.button {
+  margin-top: 60px;
+  background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 4px;
+}
+
+.pourquoifi {
+  font-family: Poppins;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#section2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc {
+  background-color: whitesmoke;
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.vache1 {
+  width: 235px;
+  height: 165px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 23px;
+}
+
+.bloc_titre {
+  margin-top: 13px;
+  text-align: center;
+  color: #53DF83;
+  font-family: Poppins; Arial;
+  font-size: 20px;
+}
+
+.bloc_paragraphe {
+  text-align: center;
+  font-family: Poppins; Arial;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#section3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc2 {
+  background-color: whitesmoke;
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.fa-5x  {
+  line-height: inherit;
+  margin-left: 165px;
+}
+
+#section4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#shiva {
+  font-family: Abril fatface; Arial;
+  text-align: center;
+  font-size: 65px;
+}
+
+.bloc3 {
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.bloc_paragraphe3 {
+  text-align: center;
+  font-family: Poppins; Arial;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.adresse {
+  text-align: center;
+  margin-top: 15px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ .poppins a
+
+ {
+   font-family: Poppins;
+   color: #53DF83 ;
+ }
+
+ .poppux
+
+ {
+   font-family: Poppins;
+ }
+
+ .poppins
+
+ {
+   font-family: Poppins;
+   color: #53DF83 ;
+   margin-top: 1em;
+ }
+
+ .poppins a:hover
+
+ {
+   font-family: Poppins;
+   color: white ;
+   list-style:none !important;
+   background-color: #53DF83 !important;
+    text-decoration: none;
+
+ }
+
+ .margetop
+ {
+   margin-left: 1em;
+     margin-top: 1em;
+
+ }
+
+ .margetop-big
+ {
+   margin-left: 26em;
+   margin-top: 1em;
+ }
+
+ .margetop-co
+ {
+       margin-top: 0.5em !important;
+
+ }
+
+ .hr
+ {
+ border-bottom: 1px solid gray;
+ }
+
+ .home
+ {
+   background-color: #EEEEEE;
+ }
+
+ input, textarea { display: block; }
