@@ -1,0 +1,142 @@
+#section1 {
+  background-color: #53DF83;
+  font-family: Poppins; Arial;
+  display: flex;
+}
+
+.plateforme {
+  margin-top: 65px;
+  color: white;
+  font-size: 30px;
+}
+
+.description {
+  margin-top: 45px;
+  color: white ;
+  font-size: 20px;
+}
+
+.plateforme_description {
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.vache {
+  margin-top: 55px;
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 55px;
+}
+
+.button {
+  margin-top: 60px;
+  background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 4px;
+}
+
+.pourquoifi {
+  font-family: Poppins;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#section2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc {
+  background-color: whitesmoke;
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.vache1 {
+  width: 235px;
+  height: 165px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 23px;
+}
+
+.bloc_titre {
+  margin-top: 13px;
+  text-align: center;
+  color: #53DF83;
+  font-family: Poppins; Arial;
+  font-size: 20px;
+}
+
+.bloc_paragraphe {
+  text-align: center;
+  font-family: Poppins; Arial;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#section3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc2 {
+  background-color: whitesmoke;
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.fa-5x  {
+  line-height: inherit;
+  margin-left: 165px;
+}
+
+#section4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#shiva {
+  font-family: Abril fatface; Arial;
+  text-align: center;
+  font-size: 65px;
+}
+
+.bloc3 {
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+.bloc_paragraphe3 {
+  text-align: center;
+  font-family: Poppins; Arial;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.adresse {
+  text-align: center;
+  margin-top: 15px;
+}

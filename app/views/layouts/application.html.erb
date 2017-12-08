@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>ProjetFinal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script src="https://use.fontawesome.com/49a0786867.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+
+<link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
+<link rel="icon" type="img/png" href="img/favico.png" />
+
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+<header class="poppins">
+<div class="container">
+
+
+      <ul class="leest list-unstyled row">
+        <li><h2 class="row">FarmInvest  <i class="fa fa-paw"></i></h2></li>
+        <li class="margetop-big"><a href="/">Acceuil</a></li>
+        <li class="margetop"><a href="/">Investir</a></li>
+        <li class="margetop"><a href="/">Contact</a></li>
+        <li class="margetop"><a href="/">À propos</a></li>
+        <li class="margetop"><a href="/">Blog</a></li>
+        <form method="get" action="/login">
+        <li class="margetop margetop-co"><button action="/" class="btn btn-success poppux"><i class="fa fa-sign-in"></i> Connexion</button>
+        </form>
+</li>
+      </ul>
+
+
+</div>
+<div class="separation"></div>
+</header>
+
+<hr width="92%">
+
+    <%= yield %>
+  </body>
+</html>
